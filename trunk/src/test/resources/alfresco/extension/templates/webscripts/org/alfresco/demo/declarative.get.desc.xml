@@ -1,0 +1,11 @@
+<webscript>
+   <shortname>Streams a declarative content item</shortname>
+   <description>Streams a declarative content item</description>
+   <url>/demo/declarative</url>
+   <url>/demo/declarative.xml</url>
+   <url>/demo/declarative.json</url>
+   <url>/demo/declarative.html</url>
+   <authentication>user</authentication>
+   <format default="html">extension</format>
+   <family>Alfresco Java-Backed WebScripts Demo</family>
+</webscript>
