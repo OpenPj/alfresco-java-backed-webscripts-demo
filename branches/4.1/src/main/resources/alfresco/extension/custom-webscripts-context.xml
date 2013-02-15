@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+
+<beans>
+
+	<bean id="webscript.org.alfresco.demo.simple.get" 
+	      class="org.alfresco.module.demoscripts.SimpleWebScript"
+		  parent="webscript" />
+
+	<bean id="webscript.org.alfresco.demo.random.get" 
+	      class="org.alfresco.module.demoscripts.RandomSelectWebScript"
+		  parent="webscript">
+		<property name="repository" ref="repositoryHelper" />
+		<property name="serviceRegistry" ref="ServiceRegistry" />
+	</bean>
+
+	<bean id="webscript.org.alfresco.demo.rendition.get" 
+		  class="org.alfresco.module.demoscripts.RenditionWebScript"
+		  parent="webscript">
+		<property name="repository" ref="repositoryHelper" />
+		<property name="serviceRegistry" ref="ServiceRegistry" />
+	</bean>
+	
+	<bean id="webscript.org.alfresco.demo.declarative.get"
+          class="org.alfresco.module.demoscripts.SimpleDeclarativeWebScript"
+          parent="webscript">
+   </bean>
+   
+   <bean id="webscript.org.alfresco.demo.moveCategory.get"
+          class="org.alfresco.module.demoscripts.MoveCategory"
+          parent="webscript">
+          <property name="nodeService" ref="NodeService"/>
+    </bean>
+
+</beans>
