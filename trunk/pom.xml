@@ -9,6 +9,15 @@
     <packaging>amp</packaging>
     <description>Alfresco Java-Backed WebScripts Samples packaged and testable with Maven Alfresco SDK</description>
 
+	<developers>
+		<developer>
+			<name>Piergiorgio Lucidi</name>
+			<url>http://www.open4dev.com</url>
+			<organization>Sourcesense</organization>
+			<organizationUrl>http://www.sourcesense.com</organizationUrl>
+		</developer>
+	</developers>
+
     <parent>
         <groupId>org.alfresco.maven</groupId>
         <artifactId>alfresco-sdk-parent</artifactId>
