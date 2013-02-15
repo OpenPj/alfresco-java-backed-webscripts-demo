@@ -20,7 +20,7 @@
 	<groupId>org.alfresco</groupId>
 	<artifactId>demojavawebscripts</artifactId>
 	<packaging>amp</packaging>
-	<name>Alfresco Java-Backed WebScripts Samples</name>
+	<name>Alfresco Java-Backed WebScripts Samples for Alfresco versions until 4.1.x</name>
 	<!--
 		An Alfresco version number must be of the form 1.2.3.4. Using
 		1.0-SNAPSHOT as the AMP version will create an exception. See
@@ -31,7 +31,7 @@
 		below as the AMP module version. Instead we use the
 		buildnumber-maven-plugin. This requires a scm connection.
 	-->
-	<version>1.1</version>
+	<version>1.2</version>
 	<description>Alfresco Java-Backed WebScripts Samples packaged and testable with Maven Alfresco Lifecycle</description>
 	
 	<developers>
