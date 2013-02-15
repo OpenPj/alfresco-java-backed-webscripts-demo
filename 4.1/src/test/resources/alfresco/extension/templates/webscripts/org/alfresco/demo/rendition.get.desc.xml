@@ -1,0 +1,8 @@
+<webscript>
+  <shortname>Streams back a rendition for a content item</shortname>
+  <description>Streams back a rendition for a content item</description>
+  <url>/demo/rendition?path={path}</url>
+  <authentication>user</authentication>
+  <format default="">argument</format>
+  <family>Alfresco Java-Backed WebScripts Demo</family>
+</webscript>
