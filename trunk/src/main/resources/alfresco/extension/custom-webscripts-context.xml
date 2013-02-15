@@ -25,5 +25,11 @@
           class="org.alfresco.module.demoscripts.SimpleDeclarativeWebScript"
           parent="webscript">
    </bean>
+   
+   <bean id="webscript.org.alfresco.demo.moveCategory.get"
+          class="org.alfresco.module.demoscripts.MoveCategory"
+          parent="webscript">
+          <property name="nodeService" ref="NodeService"/>
+    </bean>
 
 </beans>
