@@ -1,0 +1,8 @@
+<webscript>
+  <shortname>Move Category</shortname>
+  <description>Move a Category</description>
+  <url>/demo/moveCategory?sourceNodeRef={sourceNodeRef}&amp;targetNodeRef={targetNodeRef}</url>
+  <format default="html">extension</format>
+  <authentication runas="admin">user</authentication>
+  <transaction>required</transaction>
+</webscript>
