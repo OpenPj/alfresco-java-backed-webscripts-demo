@@ -1,8 +1,0 @@
-<webscript>
-  <shortname>Streams a random content item</shortname>
-  <description>Streams a random content item</description>
-  <url>/demo/random?path={path}</url>
-  <authentication>user</authentication>
-  <format default="">argument</format>
-  <family>Alfresco Java-Backed WebScripts Demo</family>
-</webscript>
